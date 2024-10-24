@@ -167,8 +167,87 @@
 //   print(fname.compareTo(lname));
 // }
 
+// void main(List<String> args) {
+//   String allNames = "Lisan, Hossain, Bose, Tose";
+//   List<String> names = allNames.split(",");
+//   print(names);
+// }
+
+// void main(List<String> args) {
+//   print("Lisan Hossain");
+// }
+
+// import 'package:one/one.dart' as one;
+
+// void main(List<String> args) {
+//   String text =
+//       "I am a good boy I like milk. Doctor says milk is good for health";
+//   String newText = text.replaceAll("milk", "water");
+//   print(text);
+//   print(newText);
+//   print("Lisan Hossain".split('').reversed.join());
+//   print(one.calculate());
+// }
+
+// void main(List<String> args) {
+//   var age = 20;
+//   if (age >= 18) {
+//     print("You are voter.");
+//   }
+// }
+
+// void main(List<String> args) {
+//   var age = 22;
+//   assert(age != 22, "Age must be 22");
+// }
+
+// void main(List<String> args) {
+//   var dayofWeek = 5;
+//   switch (dayofWeek) {
+//     case 1:
+//       print("Day is Sunday");
+//       break;
+//     case 2:
+//       print("Day is Monday");
+//       break;
+//     default:
+//       print("Invalid Weekday");
+//       break;
+//   }
+// }
+
+// enum Weather { sunny, snowy, cloudy, rainy }
+
+// void main(List<String> args) {
+//   const weather = Weather.cloudy;
+//   switch (weather) {
+//     case Weather.sunny:
+//       print("Sunny is weather");
+//       break;
+//     default:
+//       print("No weather is not there");
+//   }
+// }
+
+// void main(List<String> args) {
+//   int num1 = 10;
+//   int num2 = 20;
+//   int max = (num1 > num2) ? num1 : num2;
+//   print("Max value is $max");
+// }
+
+// void main(List<String> args) {
+//   for (int i = 0; i <= 1000; i++) {
+//     print("Lisan Hossain -> $i");
+//   }
+// }
+
 void main(List<String> args) {
-  String allNames = "Lisan, Hossain, Bose, Tose";
-  List<String> names = allNames.split(",");
-  print(names);
+  List<String> footballplayers = ["Lisan", "Hossain", "Neymar"];
+  for (var name in footballplayers) {
+    print(name.toUpperCase());
+  }
+  for (String name in footballplayers) {
+    print(name);
+  }
 }
